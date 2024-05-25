@@ -9,10 +9,12 @@ An LLM that can operate without constant user input, can use tools (calling an A
 <br>
 Each Agent in the above group can be customized to perform a single task where each agent can run on a different LLM model ([ChatGPT](https://chatgpt.com/?oai-dm=1), [Mistral](https://auth.mistral.ai/ui/login?flow=517612c2-b660-42a5-8f7d-43cfaff68dbc) etc). Every such agent typically has a role, a goal and a backstory. The role-playing aspect of the LLM allows it to better understand its function and the context of the conversation while the goal mentions the end output that is required by the user. Different tasks can be given to an agent. As the crew operates on the tasks sequentially, the order of the tasks is important when being fed to the LLM. 
 <br>
-<br>
-Below are some of the various tasks that can be performed/automated by MultiAgents. The corresponding code can be run on Colab or on Jupyter Notebook. An API key is needed to access the LLM being used. The requirements.txt contains the necessary libraries and the utils.py contains the functions that are needed to call and load the API key that has been stored as a .env file. 
 
-## Tasks
+## Usage 
+<br>
+The corresponding code in the directories can be run on Colab or on Jupyter Notebook. An API key is needed to access the LLM being used. The [requirements.txt](https://github.com/BhavaniAM/MultiAgent_CrewAI/blob/main/requirements.txt) contains the necessary libraries and the [utils.py](https://github.com/BhavaniAM/MultiAgent_CrewAI/blob/main/utils.py) contains the functions that are needed to call and load the API key that has been stored as a .env file. 
+
+## Utility of Multi_Agents
 
 1. **Creating an agent to research and write an article:**
    <br>
