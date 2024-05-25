@@ -12,7 +12,7 @@ Each Agent in the above group can be customized to perform a single task where e
 
 ## Usage 
 <br>
-The corresponding code in the directories can be run on Colab or on Jupyter Notebook. An API key is needed to access the LLM being used. The [requirements.txt](requirements.txt) contains the necessary libraries and the [utils.py](utils.py) contains the functions that are needed to call and load the API key that has been stored as a .env file. 
+The corresponding code in the directories can be run on Colab or on Jupyter Notebook. An API key is needed to access the LLM being used. The requirements.txt contains the necessary libraries and the utils.py contains the functions that are needed to call and load the API key that has been stored as a .env file. 
 
 ## Utility of Multi_Agents
 
