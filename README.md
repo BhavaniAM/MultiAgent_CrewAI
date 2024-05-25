@@ -21,15 +21,20 @@ Below are some of the various tasks that can be performed/automated by MultiAgen
 2. **Multi-agent Customer Support Automation:**
    <br>
    There are 2 different agents that are used to automate customer support: Senior Support Representative and Support Quality Assurance Specialist. The Senior Support Representative is responsible for providing full answers and be friendly to the customer. The Support Quality Assurance Specialist is responsible for verifying that the previous agent is prpviding the best support possible and making no assumptions. It can also delegate its work to another agent which might be better suited to complete the particular task.
-<br>
-<br>
+
+
+
 Multiple tools are specified to aid the agent in completing the tasks.
-* Serper dev tool - It is an external service that allows the agent to search Google for resources.
-* Scrape website - It is a single scraper to access a given URL and extract the contents
-* RAG - Performs semantic search over the contents of a website
+- Serper dev tool - It is an external service that allows the agent to search Google for resources.
+- Scrape website - It is a single scraper to access a given URL and extract the contents
+- RAG - Performs semantic search over the contents of a website
   
 3. **Customer Sales and Outreach**
    A Sales Representative agent is used to identify leads that match a customer's profile and analyze data, trends and interactions to unearth opportunities. The Lead Sales Representative agent is a bridge between the clients and the solutions that they need. There are instructions specified in markdown files for this task and are provided within the "instructions" directory. The task creates an in-depth analysis of a company to tailor the engagement strategy effectively.
 
-4. ****
+4. **Event Planning Automation**
+   The Venue Coordinator, Logistics Manager and the Marketing and Communication Agent are the three agents that are responsible for identifying and booking an appropriate venue, managing all the logistics for the event and effectively marketing and communicating with the participants. A Pydantic Object is used to store the venue details.
 
+## Acknowledgement
+Deeplearning.ai 
+- Multi-Agent AI systems with crewAI 
